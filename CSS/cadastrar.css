@@ -1,0 +1,77 @@
+input[type=text], select, textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #122051;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: 'Pathway Gothic One', sans-serif;
+  background-color: white;
+  display: block;
+  color: #000;
+
+}
+
+input[type=button] {
+  background-color:#122051;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Pathway Gothic One', sans-serif;
+  display: block;
+
+}
+
+input[type=button]:hover {
+  background-color: #fff;
+  color: #122051;
+  border: 1px solid #122051;
+}
+a{
+  text-decoration: none;
+  display: block;
+}
+
+*{
+  margin: 0 auto;
+}
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.container{
+  height: 640px;
+  background-color:  #fff;
+  font-family: 'Oswald', sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.menu ul{
+  list-style: none;
+  padding: 15px;
+}
+.menu ul li{
+  display: inline;
+  padding: 15px;
+}
+
+.menu{
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+form label{
+  color: #000;
+  margin-left: 50px;
+  font-family: 'Roboto', sans-serif;
+
+}
